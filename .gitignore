@@ -62036,59 +62036,7 @@ Frontend renders live pipeline
 🚀 Quick Start
 1. Backend Setup
 bash
-cd backend
-python -m venv venv
-# Windows: venv\Scripts\activate
-# Mac/Linux: source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env  # Add your GEMINI_API_KEY here
-python run.py
-2. Frontend Setup
-bash
-cd frontend
-npm install
-npm run dev
-The frontend will run on http://localhost:5173 and the backend on http://localhost:8000.
-
-📁 Project Structure
-text
-ai-cognitive-platform/
-├── backend/          # FastAPI backend & cognitive modules
-├── frontend/         # React + Vite + Tailwind CSS frontend
-├── database/         # SQLite schema & seed scripts
-└── README.md         # Project documentation
-✨ Features (Planned & In-Progress)
-☑ Modular cognitive pipeline architecture
-☑ FastAPI Backend with SQLite Database
-□ Live cognitive pipeline visualization in React
-□ Persistent memory with search functionality
-□ Real-time emotion detection meter
-□ Gemini API integration for all modules
-👤 Author
-Vishakha
-
-GitHub: @vishakha2121
-
-📄 License
-This project is licensed under the MIT License.
-
-text
-
----
-
-### Ab kya karna hai?
-1. File save karo.
-2. Terminal mein wapas jao aur ye commands chalao:
-```bash
-git add README.md
-git commit -m "Added project README"
-git push
-(Agar tumne pehle git push -u origin main kar liya hai, toh ab bas git push se kaam ho jayega).
-
-Ab tumhara repo professional dikhega jab koi bhi open karega! Agar abhi bhi koi error aaye toh batao.
-
-igiginore file
-Bhai, .gitignore file bahot zaroori hai. Ye file Git ko batati hai ki kaunsi files GitHub par upload nahi karni hain (jaise tera Gemini API key jisme .env file mein hai, tera venv folder jisme tera laptop heavy ho raha hai, aur node_modules jo bahot sari choti files ka folder hai).
+re file bahot zaroori hai. Ye file Git ko batati hai ki kaunsi files GitHub par upload nahi karni hain (jaise tera Gemini API key jisme .env file mein hai, tera venv folder jisme tera laptop heavy ho raha hai, aur node_modules jo bahot sari choti files ka folder hai).
 
 Agar tu ye nahi banayega, toh tera code ka size bahot bada ho jayega aur sabse khatarnak baat, tera API Key public ho jayega jisse tera account hack ho sakta hai ya bill
 
